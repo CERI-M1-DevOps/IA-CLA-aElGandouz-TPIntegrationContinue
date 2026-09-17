@@ -124,12 +124,12 @@ public class ListeSimple {
         return precedent;
     }
 
-    public void echanger(Noeud r1, Noeud r2) {
+    public void echanger(Noeud r2, Noeud r1) {
         if (r1 == r2) {
             return;
         }
         if (r2 == tete) {
-            echanger(r1, r2);
+            echanger(r2, r1);
             return;
         }
         if (r1 == tete) {
