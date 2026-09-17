@@ -129,7 +129,7 @@ public class ListeSimple {
             return;
         }
         if (r2 == tete) {
-            echanger(r2, r1);
+            echanger(r1, r2);
             return;
         }
         if (r1 == tete) {
